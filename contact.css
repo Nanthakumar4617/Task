@@ -1,0 +1,115 @@
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+body{
+    .poppins-regular {font-family: "Poppins", sans-serif;font-weight: 400; font-style: normal;
+    }
+    
+}
+body{
+    color: white;
+    background-color: rgb(26, 25, 25);
+}
+.text-center{
+    margin: 25px;
+}
+.Container-Fluid{
+    color: white;
+    margin: 40px;
+}
+
+.head h1{
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    flex-basis: 46%;
+}
+.head p{
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: justify;
+    margin-top: 20px;
+    font-weight: 300;
+
+    
+}
+.contect-ul li{
+    display: flex;
+    margin: 12px;
+    
+    h3{
+        font-size: 19px;
+    }
+    p{
+        margin-left: 10px;
+    }
+}
+.container-col{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+
+
+
+form{
+    margin: 25px;
+    font-weight: 500;
+}
+.input-group input{
+    background: #ececec;
+    border: 0;
+    border-radius: 10px;
+    display: block;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    outline: 0;
+    padding: 15px;
+    resize: none;
+    
+}
+
+.submit button{
+    background-color: rgb(89, 255, 47);
+    border-radius: 3px;
+    border: 0;
+    color: rgba(255, 255, 255, 0.932);
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+label{
+    display: block;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+textarea{
+    background: #ececec;
+    border: 0;
+    border-radius: 10px;
+    display: block;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    outline: 0;
+    padding: 15px;
+    resize: none;
+    height: 150px;
+}

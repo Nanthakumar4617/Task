@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: rgb(26, 25, 25);
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  z-index: 100000;
+}
+
+.navbar h2 {
+  display: flex;
+  justify-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: inline;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.navbar li, ul {
+  display: inline;
+  flex-wrap: wrap;
+  justify-items: flex-end;
+  li {
+    padding: 5px;
+  }
+}
+
+ul {
+  margin-left: 72%;
+  color: gray;
+}
+
+.navbar a {
+  text-decoration: none;
+  
+}
+
+.navbar button {
+  background-color: gray;
+  font-size: 19px;
+  border-radius: 4pc;
+  border: 0px;
+  a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+  }
+}
+
+.word {
+  font-size: 90px;
+  font-weight: 600px; 
+  color: white;
+  margin: 45px;
+  margin-top: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.5;
+  align-items: center;
+}
+
+.dev {
+  background: linear-gradient(rgba(13, 134, 221, 0.06), rgba(13, 134, 221, 0.2));
+  margin: 10px;
+  
+}
+
+.fe {
+  background: linear-gradient(rgba(13, 134, 221, 0.06), rgba(13, 134, 221, 0.2));
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.p {
+  display: flex;
+  align-items: flex-start;
+  margin: 45px;
+  font-size: 18px;
+  width: 640px;
+}
+.button-r button{
+    color: white;
+    margin-left: 40px;
+    height: 52px;
+    font-size: 16px;
+    padding: 0px 32px;
+    border-radius: 10px;
+    border: 0px;
+    display: inline;
+    background-color: rgb(21, 116, 239);
+    a{
+        text-decoration: none;
+    }
+
+}
+.button-l button{
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    display: inline;
+    background-color: rgba(49, 61, 94, 0.54);
+    a{
+        text-decoration: none;
+    }
+}
+.contact-bot{
+  background-color: black;
+  margin-top: 15%;
+  
+  h2{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 4%;
+    
+  }
+  h1{
+    color: rgb(32, 71, 245);
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 4%;
+  }
+  p{
+    width: 580px;
+    margin-left: 4%;
+    font-size: small;
+  }
+  li{
+    margin-left: 4%;
+    list-style-type: none;
+    font-size: small;
+    
+  }
+}
